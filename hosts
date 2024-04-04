@@ -1,0 +1,2 @@
+[debian]
+ubuntu ansible_host=18.212.77.201 ansible_user=ubuntu ansible_ssh_private_key_file=key.pem
