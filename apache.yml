@@ -1,0 +1,10 @@
+- hosts: all
+  become: true
+  tasks:
+    - name: Installing Apache
+        apt:
+          name: apache2
+          state: present
+    - name: Deploy Application
+        shell:
+          cmd: cp index.html /var/www/html/
